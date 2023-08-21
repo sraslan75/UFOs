@@ -12,12 +12,18 @@ This application uses MySql database. You can install MySql using the following 
 
 After installing MySql, use the following commands to login to MySql, create API user, create the database, and create the table:
 
-mysql -u root -p    
+mysql -u root -p
+
 CREATE USER 'ufo_admin'@'localhost' IDENTIFIED BY 'jiza_MA!_9182';	
+
 GRANT ALL PRIVILEGES ON your_database_name.* TO 'your_username'@'localhost';
+
 FLUSH PRIVILEGES;
+
 CREATE DATABASE ufo_sightings;
+
 CREATE TABLE sighting (id INT AUTO_INCREMENT PRIMARY KEY, time_stamp VARCHAR(255), city VARCHAR(255), state VARCHAR(255), country VARCHAR(255), shape VARCHAR(255), duration VARCHAR(255), summary TEXT,  posted VARCHAR(255), image VARCHAR(255));
+
 EXIT;
 
 -------------------------------------
