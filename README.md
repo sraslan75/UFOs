@@ -5,16 +5,10 @@ Attention: This project is for demonstration only. Please be aware that the code
 
 --------------------------------------
 
-Installation requirements:
-
-Python version 3.x
-The following libraries (using pip3 install): ‘Flask’, ‘Flask-MySQL’, flask-mysqldb, ‘beautifulsoup4’, requests,  
-
--------------------------------------- 
 Setting up the database:
 
 This application uses MySql database. You can install MySql using the following command:
-sudo apt-get install mysql-server  
+{sudo apt-get install mysql-server}  
 
 After installing MySql, use the following commands to login to MySql, create API user, create the database, and create the table:
 
@@ -27,7 +21,12 @@ CREATE TABLE sighting (id INT AUTO_INCREMENT PRIMARY KEY, time_stamp VARCHAR(255
 EXIT;
 
 -------------------------------------
+Installation requirements:
 
+Python version 3.x
+The following libraries (using pip3 install): ‘Flask’, ‘Flask-MySQL’, flask-mysqldb, ‘beautifulsoup4’, requests,  
+
+-------------------------------------
 Setting up the API server:
 
 For this project we are using the Flask's Built-in Development Server. To install and run the API server, just run the following command from the application directory:
