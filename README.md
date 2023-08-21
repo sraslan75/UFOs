@@ -50,6 +50,6 @@ python3 ufo-info.py -all_records
 [-search]: The user will be prompted to enter the search criteria, that includes the date of the sighting, the city, the state, and the country. All entries are optional but at least one has to be provided (the records will be saved in a Json file under the ‘/data/' folder):
 python3 ufo-info.py -search
 
-To run automatc daily updates, you can schedule a task to run the following command (using task schedular or cron)
-python3 ufo-info.py -update  
+**To run automatc daily updates, you can schedule a task to run the following command (using task schedular or cron)
+python3 ufo-info.py -update  **
 ---------------------------------
